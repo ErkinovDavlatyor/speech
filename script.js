@@ -46,7 +46,7 @@ btn.addEventListener('click', () => {
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'Nima Deysiz';
+    speech.text = 'tushunmadim';
 
     if(message.includes('How are you')){
       const finalText =  greetings[Math.floor(Math.random() * greetings.length)];
