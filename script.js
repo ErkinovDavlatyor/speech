@@ -46,7 +46,7 @@ btn.addEventListener('click', () => {
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'dona dona gapring men tshunmadim';
+    speech.text = 'dona dona gapring tshunmadim';
 
     if(message.includes('How are you')){
       const finalText =  greetings[Math.floor(Math.random() * greetings.length)];
