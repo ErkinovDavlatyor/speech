@@ -46,7 +46,7 @@ btn.addEventListener('click', () => {
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'tushunmayapman';
+    speech.text = 'Nima Deysiz';
 
     if(message.includes('How are you')){
       const finalText =  greetings[Math.floor(Math.random() * greetings.length)];
@@ -56,7 +56,7 @@ function readOutLoud(message) {
       const finalText = sayhello[Math.floor(Math.random() * sayhello.length)];
         speech.text = finalText;
     }
-    if(message.includes('What is your name')){
+    if(message.includes('what is your name')){
       const finalText = sayname[Math.floor(Math.random() * sayname.length)];
         speech.text = finalText;
     }
