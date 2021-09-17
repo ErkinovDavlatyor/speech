@@ -43,7 +43,7 @@ btn.addEventListener('click', () => {
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'takrorlab gapiring';
+    speech.text = 'tushunmayapman';
 
     if(message.includes('How are you')){
       const finalText =  greetings[Math.floor(Math.random() * greetings.length)];
