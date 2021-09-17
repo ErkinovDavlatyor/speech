@@ -24,6 +24,9 @@ const sayteacher = [
 let SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 let recognition = new SpeechRecognition();
 
+let rec = webkitSpeechRecognition
+
+rec.lang = 'uz - Uz'
 
 recognition.onstart = function() {
     console.log('voice is actived, you can to microphonee');
