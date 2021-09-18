@@ -3,7 +3,7 @@ const content = document.querySelector(".content")
 
 const greetings = [
     'ajoyib ',
-    'very well',
+    ,
     'I am fine'
 ];
 const sayname = [
