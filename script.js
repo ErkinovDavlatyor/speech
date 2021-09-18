@@ -3,17 +3,15 @@ const content = document.querySelector(".content")
 
 const greetings = [
     'ajoyib ',
-    ,
     'I am fine'
 ];
 const sayname = [
-    'Boshliqimni ismi Davlatyor',
+    'Boshliqimni ismi Davlatyor meniki madina',
 ];
 const sayhello = [
-    'Assalomu',
     'hello how are you',
     'volaykum Salom',
-    'Salom'
+    'salom'
 ];
 const sayteacher = [
     'Ulugbek aka bizani ustoz',
@@ -46,7 +44,7 @@ btn.addEventListener('click', () => {
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'dona dona gapring tshunmad';
+    speech.text = 'tushunmadim';
 
     if(message.includes('How are you')){
       const finalText =  greetings[Math.floor(Math.random() * greetings.length)];
